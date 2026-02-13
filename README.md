@@ -1,49 +1,46 @@
-```markdown
 # KBN - Komunitas Bising Nasional
 
-**KBN (Komunitas Bising Nasional)** adalah sebuah komunitas daring yang bertujuan untuk mempertemukan individu-individu yang memiliki minat dalam diskusi, berbagi konten, dan kolaborasi seputar topik *bising* (noise) di berbagai bidang.
+**KBN (Komunitas Bising Nasional)** adalah sebuah komunitas daring yang bertujuan untuk mempertemukan individu-individu dengan minat diskusi, berbagi konten, dan kolaborasi seputar berbagai topik komunitas.
 
 ## 📌 Tentang
 
-Proyek ini merupakan wadah sosial dan kolaboratif bagi anggota komunitas untuk:
-- Berbagi informasi dan konten menarik,
-- Diskusi mengenai berbagai hal yang relevan dengan komunitas,
-- Berkolaborasi dalam proyek-proyek kecil／besar bersama anggota lain,
-- Membangun jejaring dan koneksi baru.
+Repository ini digunakan sebagai pusat dokumentasi dan pengembangan untuk komunitas KBN. Di dalamnya dapat berisi halaman web, dokumentasi, serta aset pendukung lainnya.
 
-*(Deskripsi di atas dapat diubah sesuai tujuan nyata komunitas ini — sesuaikan dengan visi kamu.)*
+Tujuan utama proyek ini antara lain:
+
+* Menjadi identitas resmi komunitas KBN di GitHub
+* Menyimpan aset dan dokumen komunitas
+* Menjadi dasar pengembangan website atau proyek digital KBN
 
 ## 🛠️ Struktur Repository
 
 ```
-
 ├── assets/           # Gambar / media pendukung
-├── index.html        # Halaman utama (jika ada)
-├── about.html        # Halaman informasi komunitas
-├── program.html      # Halaman program／kegiatan komunitas
-├── legal.html        # Ketentuan／peraturan komunitas
-├── LICENSE           # Lisensi proyek (GPL-3.0)
-└── README.md         # Penjelasan proyek (file ini)
-
+├── index.html        # Halaman utama
+├── about.html        # Informasi komunitas
+├── program.html      # Program / kegiatan komunitas
+├── legal.html        # Ketentuan / peraturan
+├── LICENSE           # Lisensi proyek
+└── README.md         # Dokumentasi repository
 ```
 
 ## 📄 Lisensi
 
-Proyek ini dilisensikan di bawah **GPL-3.0 License** — silakan lihat file `LICENSE` untuk detail lebih lanjut.  
+Proyek ini menggunakan lisensi **GNU General Public License v3.0 (GPL-3.0)**. Silakan lihat file `LICENSE` untuk informasi lebih lanjut.
 
-## 🎯 Cara Berkontribusi
+## 🎯 Kontribusi
 
-1. 🇮🇩 Fork repository ini  
-2. 📝 Buat perubahan di branch baru (`git checkout -b fitur-baru`)  
-3. 📤 Buat Pull Request (PR) dengan deskripsi perubahan yang jelas  
-4. 🔄 Perubahan akan ditinjau dan dikombinasikan ke branch utama  
+Kontribusi sangat terbuka untuk semua anggota komunitas.
 
-Terima kasih atas kontribusinya! 💖
+Langkah singkat:
+
+1. Fork repository ini
+2. Buat branch baru untuk perubahan (`git checkout -b fitur-baru`)
+3. Commit perubahan
+4. Buat Pull Request
+
+Setiap kontribusi akan ditinjau terlebih dahulu sebelum digabungkan.
 
 ---
 
-Silakan sesuaikan isi README sesuai dengan tujuan proyek kamu. Jika repositorinya berisi laman web (HTML/CSS/JS), kamu bisa menambahkan contoh penggunaan atau preview jika perlu.  
-
-Butuh versi dalam bahasa lain (English/Jawa/ lainnya)? Beri tahu aku!
-::contentReference[oaicite:1]{index=1}
-```
+© Komunitas Bising Nasional
