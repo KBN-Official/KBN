@@ -1,0 +1,136 @@
+:root {
+  --primary: #0f172a;
+  --secondary: #1e40af;
+  --light: #f8fafc;
+  --text: #1e293b;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+  background: var(--light);
+  color: var(--text);
+  line-height: 1.7;
+}
+
+/* =====================
+   Layout
+===================== */
+.container {
+  max-width: 1100px;
+  margin: auto;
+  padding: 0 20px;
+}
+
+/* =====================
+   Header
+===================== */
+.site-header {
+  background: var(--primary);
+  color: white;
+  padding: 50px 0;
+  text-align: center;
+}
+
+.header-flex {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  justify-content: center;
+}
+
+.logo {
+  height: 60px;
+}
+
+/* Responsive Header */
+@media (max-width: 600px) {
+  .header-flex {
+    flex-direction: column;
+    text-align: center;
+  }
+}
+
+/* =====================
+   Navigation
+===================== */
+.navbar {
+  background: #ffffff;
+  border-bottom: 2px solid var(--secondary);
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+}
+
+.navbar ul {
+  display: flex;
+  justify-content: center;
+  list-style: none;
+  gap: 30px;
+  padding: 15px 0;
+}
+
+a {
+  color: var(--secondary);
+  text-decoration: none;
+  font-weight: 500;
+}
+
+.navbar a {
+  padding-bottom: 6px;
+  border-bottom: 2px solid transparent;
+  transition: border-color 0.2s ease;
+}
+
+.navbar a:hover {
+  border-bottom-color: var(--secondary);
+}
+
+/* =====================
+   Sections
+===================== */
+.section {
+  padding: 70px 0;
+}
+
+.section-alt {
+  background: #f1f5f9;
+}
+
+/* =====================
+   Components
+===================== */
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 30px;
+}
+
+.card {
+  background: white;
+  padding: 30px;
+  border-radius: 12px;
+  border: 1px solid #e5e7eb;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.card:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.08);
+}
+
+/* =====================
+   Footer
+===================== */
+.site-footer {
+  background: #020617;
+  color: #e0e7ff;
+  text-align: center;
+  padding: 40px 0;
+  margin-top: 60px;
+}
